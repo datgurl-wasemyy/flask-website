@@ -180,10 +180,10 @@
         
         <!-- Video Container -->
         <div class="video-wrapper">
-            <video id="futureVideo" autoplay loop controls>
-                <source src="{{ url_for('static', filename='c:\Users\Admin\Desktop\future 2026\video.mp4') }}" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+         <video controls muted width="600">
+    <source src="{{ url_for('static', filename='videos/video.mp4') }}" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
             
             <!-- Video Overlay Effects -->
             <div class="video-overlay">
@@ -269,4 +269,5 @@
         };
     </script>
 </body>
+
 </html>
